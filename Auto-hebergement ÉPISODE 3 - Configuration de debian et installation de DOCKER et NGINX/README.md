@@ -89,8 +89,8 @@
 `cd test`
 
 `nano docker-compose.yml`
-`test:
- image: hello-world`
+
+`Contenue du fichier docker-compose.yml`
 
 `docker-compose up`
 
