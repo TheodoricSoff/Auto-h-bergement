@@ -98,6 +98,8 @@
 
 `docker rm "container id"`
 
+`rm -rf /home/test`
+
 
 
 > SOURCE : https://docs.docker.com/engine/install/debian/#install-using-the-repository
