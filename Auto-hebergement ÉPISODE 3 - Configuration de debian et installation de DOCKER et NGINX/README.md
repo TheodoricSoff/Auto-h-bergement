@@ -1,12 +1,12 @@
 Activer la connexion ssh en root :
 
-su root
+`su root`
 
 `nano /etc/ssh/sshd_config`
 
-"PermitRootLogin without-password" on remplace par "PermitRootLogin yes"
+`"PermitRootLogin without-password" on remplace par "PermitRootLogin yes"
 
-/etc/init.d/ssh restart
+/etc/init.d/ssh restart`
 
 
 Installation driver realtek :
