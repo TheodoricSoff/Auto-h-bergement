@@ -31,7 +31,7 @@ Configuration ip fixe et dns :
 
 `sudo nano /etc/resolv.conf`
 
-Contenue du fichier resolv.conf
+`Contenue du fichier resolv.conf`
 
 `reboot`
 
@@ -97,3 +97,6 @@ Installation docker-compose :
 `docker ps -a`
 
 `docker rm "container id"`
+
+
+SOURCE : https://docs.docker.com/engine/install/debian/#install-using-the-repository
