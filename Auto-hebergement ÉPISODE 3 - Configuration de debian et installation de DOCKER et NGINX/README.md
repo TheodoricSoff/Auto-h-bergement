@@ -9,7 +9,7 @@
 `/etc/init.d/ssh restart`
 
 
- ###Installation driver realtek : ###
+ ### Installation driver realtek :
 
 `apt install software-properties-common`
 
@@ -21,7 +21,7 @@
 
 `apt-get install sudo`
 
- ###Configuration ip fixe et dns : ###
+ ### Configuration ip fixe et dns :
 
 `ip addr`
 
@@ -35,7 +35,7 @@
 
 `reboot`
 
- ###Installation nginx : ###
+ ### Installation nginx :
 
 `apt update`
 
@@ -47,7 +47,7 @@
 
 `sudo nginx -v`
 
- ###Installation docker : ###
+ ### Installation docker :
 
 `apt-get update`
 
@@ -74,7 +74,7 @@
 
 `docker rm "container id"`
 
- ###Installation docker-compose : ###
+ ### Installation docker-compose :
 
 sudo curl -L https://github.com/docker/compose/releases/download/1.25.3/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 
