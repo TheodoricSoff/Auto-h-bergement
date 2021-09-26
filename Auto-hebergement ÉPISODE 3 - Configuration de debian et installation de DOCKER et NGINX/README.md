@@ -2,7 +2,7 @@ Activer la connexion ssh en root :
 
 su root
 
-'nano /etc/ssh/sshd_config'
+`nano /etc/ssh/sshd_config`
 
 "PermitRootLogin without-password" on remplace par "PermitRootLogin yes"
 
