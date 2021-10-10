@@ -1,80 +1,80 @@
-'su root'
+`su root`
 
-adduser docker-compose
+`adduser docker-compose`
 
-id docker-compose
+`id docker-compose`
 
-cd /home/docker-compose
+`cd /home/docker-compose`
 
-mkdir vpn
-mkdir rutorrent
+`mkdir vpn`
+`mkdir rutorrent`
 
-cd vpn
+`cd vpn`
 
-nano TUN.sh
+`nano TUN.sh`
 
-Contenue du fichier TUN.sh
+`Contenue du fichier TUN.sh`
 
-chmod 0755 TUN.sh
+`chmod 0755 TUN.sh`
 
-./TUN.sh
+`./TUN.sh`
 
-mkdir config
+`mkdir config`
 
-cd config
+`cd config`
 
-pwd
+`pwd`
 
-cd ..
+`cd ..`
 
-nano docker-compose.yml
+`nano docker-compose.yml`
 
 Contenue du fichier VPN-docker-compose.yml
 
-nano docker-compose.yml
+`nano docker-compose.yml`
 
-cd ..
+`cd ..`
 
-cd rutorrent
+`cd rutorrent`
 
-mkdir config
+`mkdir config`
 
-cd config
+`cd config`
 
-pwd
+`pwd`
 
-cd /data/data
+`cd /data/data`
 
-pwd
+`pwd`
 
-cd /home/docker-compose/rutorrent
+`cd /home/docker-compose/rutorrent`
 
-nano docker-compose.yml
+`nano docker-compose.yml`
 
-RUTORRENT-docker-compose.yml
+`RUTORRENT-docker-compose.yml`
 
-docker network create vpn-network
+`docker network create vpn-network`
 
-cd ..
+`cd ..`
 
-cd vpn
+`cd vpn`
 
-docker-compose up -d
+`docker-compose up -d`
 
-cd ..
+`cd ..`
 
-cd rutorrent
+`cd rutorrent`
 
-docker-compose up -d
+`docker-compose up -d`
 
-docker exec -it rutorrent gen-http-passwd
+`docker exec -it rutorrent gen-http-passwd`
 
 
 
-adduser docker-compose data
+`adduser docker-compose data`
 
-sudo chown root:data /data
-sudo chown root:data /data/data
+`sudo chown root:data /data`
+`sudo chown root:data /data/data`
 
-chmod 775 /data
-chmod 775 /data/data
+`chmod 775 /data`
+`chmod 775 /data/data`
