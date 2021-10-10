@@ -101,3 +101,13 @@ Ajoutez à la fin le contenue du fichier "smb.conf"
 `mdadm -D /dev/md0`
 
 `cat /proc/mdstat`
+> SOURCE :
+>  https://www.cypouz.com/article/140110/configurer-un-raid1-logiciel-sur-un-systeme-debian-existant#:~:text=Configuration%20du%20RAID%201,rejoindre%20lui%20aussi%20le%20RAID.
+> 
+> https://www.malekal.com/fdisk-gfdisk-creer-supprimer-redimensionner-des-partitions-de-disque-en-ligne-de-commandes-linux/
+> 
+> https://doc.ubuntu-fr.org/systeme_de_fichiers#comparaison_de_systemes_de_fichiers
+> 
+> https://www.digitalocean.com/community/tutorials/how-to-create-raid-arrays-with-mdadm-on-ubuntu-16-04
+> 
+> https://it.izero.fr/raspberry-pi-3-creer-un-raid-logiciel-puis-faire-un-nas/
