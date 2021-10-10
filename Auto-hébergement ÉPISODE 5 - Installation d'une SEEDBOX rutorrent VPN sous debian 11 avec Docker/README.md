@@ -1,4 +1,4 @@
-su root
+'su root'
 
 adduser docker-compose
 
