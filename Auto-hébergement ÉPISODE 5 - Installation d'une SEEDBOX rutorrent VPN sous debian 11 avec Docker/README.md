@@ -13,7 +13,7 @@
 
 `nano TUN.sh`
 
-`Contenue du fichier TUN.sh`
+Contenue du fichier TUN.sh
 
 `chmod 0755 TUN.sh`
 
@@ -51,7 +51,7 @@ Contenue du fichier VPN-docker-compose.yml
 
 `nano docker-compose.yml`
 
-`RUTORRENT-docker-compose.yml`
+Contenue du fichier RUTORRENT-docker-compose.yml
 
 `docker network create vpn-network`
 
