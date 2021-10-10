@@ -12,7 +12,7 @@
 
 `lsblk`
 
-La méme chose pour les autres disques.
+La même chose pour les autres disques.
 
 `sudo apt update`
 
@@ -22,7 +22,7 @@ La méme chose pour les autres disques.
 
 `lsblk`
 
-### CREATION DU RAID :
+### Création du raid :
 
 `mdadm --create /dev/md0 --level=1 --raid-devices=2 /dev/"disk1" /dev/"disk2"`
 
@@ -87,7 +87,7 @@ La méme chose pour les autres disques.
 
 `nano /etc/samba/smb.conf`
 
-Ajouter a la fin le contenue du fichier "smb.conf"
+Ajoutez à la fin le contenue du fichier "smb.conf"
 
 `systemctl reload smbd.service`
 
