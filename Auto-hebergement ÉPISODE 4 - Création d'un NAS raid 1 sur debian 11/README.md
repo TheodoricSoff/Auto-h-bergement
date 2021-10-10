@@ -36,7 +36,7 @@ La méme chose pour les autres disques.
 
 `mkdir /raid`
 
-`mount /dev/md0 /raid``
+`mount /dev/md0 /raid`
 
 `cd /raid`
 
