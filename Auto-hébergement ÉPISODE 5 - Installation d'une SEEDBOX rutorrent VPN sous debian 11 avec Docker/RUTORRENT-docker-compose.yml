@@ -1,0 +1,15 @@
+version: "3.3"
+services:
+  rutorrent:
+    image: mondedie/rutorrent:latest
+    container_name: rutorrent
+    network_mode: "container:vpn"
+    environment:
+      - UID=1001
+      - GID=1003
+      - TZ=Europe/Paris
+      - HTTP_AUTH=true
+    volumes:
+      - /home/docker-compose/rutorrent/config:/config
+      - /data/data:/data
+    restart: unless-stopped
